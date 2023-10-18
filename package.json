@@ -1,0 +1,20 @@
+{
+  "name": "kudobuzz",
+  "version": "1.0.0",
+  "description": "Kudobuzz code challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "test run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kudobuzz"
+  },
+  "author": "GloriaBargoria",
+  "license": "MIT",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  }
+}
