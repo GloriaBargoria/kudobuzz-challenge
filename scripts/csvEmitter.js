@@ -7,7 +7,6 @@ const csvEmitter = new EventEmitter()
 csvEmitter.on('filterAndExportSubscriptions', (subscriptions) => {
   try {
     const filteredSubscriptions = subscriptions.filter((subscription) => {
-      // Add your filter logic here, comparing plan price with $50
       return subscription.plan_id.price >= 50
     })
 
